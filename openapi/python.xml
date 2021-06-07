@@ -17,6 +17,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
+                            <generatorName>python</generatorName>
                             <inputSpec>${generator.spec.path}</inputSpec>
                             <language>python</language>
                             <gitUserId>kubernetes-client</gitUserId>
